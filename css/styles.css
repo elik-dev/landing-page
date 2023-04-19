@@ -41,8 +41,8 @@ a {
     align-items: center;
 }
 
-/* heading layout */
-.container-1,
+/* heading section layout */
+.heading-section,
 footer {
     background-color: #1f2937;
 }
@@ -51,7 +51,7 @@ footer {
 h1,
 .hero button {
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .logo {
@@ -111,23 +111,25 @@ nav ul {
 
 /* info section layout */
 h2,
-.card p {
+.card p,
+figure {
     color: #1f2937;
 }
 h2 {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 800;
     padding: 48px 0;
 }
 .card p {
     font-size: 18px;
 }
-.container-2 {
+.info-section {
     background-color: #f9faf8;
 }
 .card-container {
     display: flex;
     gap: 48px;
+    padding-bottom: 128px;
 }
 .card {
     max-width: 170px;
@@ -140,4 +142,23 @@ h2 {
     height: auto;
     border: solid #3882f6 3px;
     border-radius: 8px;
+}
+/* quote section layout */
+.quote-section {
+    background-color: #e5e7eb;
+}
+figure {
+    padding: 128px 0;
+}
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 782px;
+}
+figcaption {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: right;
+    margin-right: 18px;
 }
