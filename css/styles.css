@@ -34,7 +34,7 @@ a {
 
 .content {
     margin: 0 auto;
-    max-width: 996px;
+    max-width: 1060px;
     padding: 0 18px;
     display: flex;
     flex-direction: column;
@@ -82,8 +82,8 @@ nav a:hover {
 }
 
 .hero button:hover {
-    background-color: #f9faf8;
-    color: #3882f6;
+    padding: 5px 29px;
+    border: solid 3px #f9faf8;
 }
 .header-top {
     padding-top: 18px;
@@ -98,7 +98,7 @@ nav ul {
 .hero {
     padding: 128px 0;
     display: flex;
-    gap: 32px;
+    gap: 48px;
 }
 .hero-left,
 .hero-right {
@@ -106,6 +106,38 @@ nav ul {
 }
 .hero-right img {
     max-width: 100%;
+    height: auto;
 }
 
-/* container 2 layout */
+/* info section layout */
+h2,
+.card p {
+    color: #1f2937;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 48px 0;
+}
+.card p {
+    font-size: 18px;
+}
+.container-2 {
+    background-color: #f9faf8;
+}
+.card-container {
+    display: flex;
+    gap: 48px;
+}
+.card {
+    max-width: 170px;
+}
+.card p {
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border: solid #3882f6 3px;
+    border-radius: 8px;
+}
