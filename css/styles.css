@@ -217,6 +217,10 @@ figcaption {
     background-color: #f9faf8;
     color: #3882f6;
 }
+.hero button:active,
+button:active {
+    border-color:#666;
+}
 /* footer layout */
 footer {
     text-align: center;
