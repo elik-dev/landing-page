@@ -1,6 +1,6 @@
 # odin-landing-page
 ## About
-In this project I'm going to put to use what I learned in the following The Odin Project's sections:
+In this project I'm going to put to use what I've learned in the following The Odin Project's sections:
 - HTML Foundations
 - CSS Foundations
 - Flexbox
