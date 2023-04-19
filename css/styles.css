@@ -17,6 +17,7 @@ body {
 ul,
 h1,
 h2,
+h3,
 p,
 figure,
 blockquote {
@@ -49,12 +50,25 @@ footer {
 
 .logo,
 h1,
+h3,
 .hero button {
     color: #f9faf8;
-    font-weight: 800;
 }
 
-.logo {
+h1,
+h2 {
+    font-weight: 800;
+}
+.logo,
+.hero button,
+figcaption,
+h3,
+.action-panel button {
+    font-weight: bold;
+}
+
+.logo,
+h3 {
     font-size: 24px;
 }
 
@@ -64,10 +78,12 @@ h1 {
 
 nav a,
 .hero p,
-footer {
+footer,
+.action-text p {
     color: #e5e7eb;
     font-size: 18px;
 }
+
 nav a:hover {
     color: #3882f6;
 }
@@ -82,28 +98,33 @@ nav a:hover {
 }
 
 .hero button:hover {
-    padding: 5px 29px;
-    border: solid 3px #f9faf8;
+    padding: 6px 30px;
+    border: solid 2px #f9faf8;
 }
+
 .header-top {
     padding-top: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 nav ul {
     display: flex;
     gap: 24px;
 }
+
 .hero {
     padding: 128px 0;
     display: flex;
     gap: 48px;
 }
+
 .hero-left,
 .hero-right {
     flex: 1;
 }
+
 .hero-right img {
     max-width: 100%;
     height: auto;
@@ -115,50 +136,89 @@ h2,
 figure {
     color: #1f2937;
 }
+
 h2 {
     font-size: 36px;
-    font-weight: 800;
     padding: 48px 0;
 }
+
 .card p {
     font-size: 18px;
 }
-.info-section {
-    background-color: #f9faf8;
-}
+
 .card-container {
     display: flex;
     gap: 48px;
     padding-bottom: 128px;
 }
+
 .card {
     max-width: 170px;
 }
+
 .card p {
     text-align: center;
 }
+
 .card img {
     max-width: 100%;
     height: auto;
     border: solid #3882f6 3px;
     border-radius: 8px;
+    margin-bottom: 8px;
 }
+
 /* quote section layout */
 .quote-section {
     background-color: #e5e7eb;
 }
+
 figure {
     padding: 128px 0;
 }
+
 blockquote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     max-width: 782px;
 }
+
 figcaption {
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 24px;
     text-align: right;
     margin-right: 18px;
+}
+
+/* action section layout */
+.action-section {
+    padding: 96px 0;
+}
+
+.action-panel {
+    background-color: #3882f6;
+    padding: 64px 128px;
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+.action-panel button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 6px 30px;
+    border: solid #f9faf8 2px;
+    border-radius: 8px;
+}
+.action-panel button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+/* footer layout */
+footer {
+    text-align: center;
+    padding: 32px 0;
 }
