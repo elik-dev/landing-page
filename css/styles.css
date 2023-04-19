@@ -40,6 +40,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: stretch;
 }
 
 /* heading section layout */
@@ -59,6 +60,7 @@ h1,
 h2 {
     font-weight: 800;
 }
+
 .logo,
 .hero button,
 figcaption,
@@ -192,19 +194,21 @@ figcaption {
 
 /* action section layout */
 .action-section {
-    padding: 96px 0;
+    padding: 96px 18px;
 }
 
 .action-panel {
-    background-color: #3882f6;
-    padding: 64px 128px;
-    width: 1024px;
     margin: 0 auto;
+    background-color: #3882f6;
+    padding: 48px 18px;
+    max-width: 1060px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 8px;
+    gap: 48px;
 }
+
 .action-panel button {
     color: #f9faf8;
     background-color: #3882f6;
@@ -213,16 +217,19 @@ figcaption {
     border: solid #f9faf8 2px;
     border-radius: 8px;
 }
+
 .action-panel button:hover {
     background-color: #f9faf8;
     color: #3882f6;
 }
+
 .hero button:active,
 button:active {
-    border-color:#666;
+    border-color: #666;
 }
+
 /* footer layout */
 footer {
     text-align: center;
-    padding: 32px 0;
+    padding: 32px 18px;
 }
